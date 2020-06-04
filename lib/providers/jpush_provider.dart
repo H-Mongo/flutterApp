@@ -359,7 +359,7 @@ class JPushProvider extends ChangeNotifier{
       ///
       void setUpJPush(){
         _jpush.setup(
-          appKey: "2180c05fa8c52f21d907cbf3",
+          appKey: "your jpush appKey",
           channel: "flutter_channel",
           production: false,
           debug: true, // 设置是否打印 debug 日志
